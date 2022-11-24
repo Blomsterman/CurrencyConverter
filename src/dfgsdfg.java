@@ -45,11 +45,13 @@ public class dfgsdfg {
         b1.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 double d = Double.parseDouble(t1.getText());
+
+                // Supposed to convert SEK to GBP
                 double d1 = (d / 12.62);
 
 
                 String s1 = String.valueOf(d1);
-                t1.setText(s1);
+                t2.setText(s1);
 
 
             }
@@ -57,10 +59,11 @@ public class dfgsdfg {
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 double d2 = Double.parseDouble(t2.getText());
+                // Supposed to convert GBP to SEK
                 double d3 = (d2 * 12.62);
 
                 String s2 = String.valueOf(d3);
-                t2.setText(s2);
+                t1.setText(s2);
             }
         });
         b3.addActionListener(new ActionListener() {
