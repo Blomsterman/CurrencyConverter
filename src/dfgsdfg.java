@@ -49,18 +49,18 @@ public class dfgsdfg {
 
 
                 String s1 = String.valueOf(d1);
-                t2.setText(s1);
+                t1.setText(s1);
 
 
             }
         });
         b2.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                double d2 = Double.parseDouble(t1.getText());
-                double d3 = (d2 / 12.62);
+                double d2 = Double.parseDouble(t2.getText());
+                double d3 = (d2 * 12.62);
 
                 String s2 = String.valueOf(d3);
-                t1.setText(s2);
+                t2.setText(s2);
             }
         });
         b3.addActionListener(new ActionListener() {
@@ -84,7 +84,7 @@ public class dfgsdfg {
         frame.add(b2);
 
         frame.setLayout(null);
-        frame.setSize(800, 600);
+        frame.setSize(400, 200);
         frame.setVisible(true);
         return 4;
     }
