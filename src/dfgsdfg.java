@@ -39,7 +39,7 @@ public class dfgsdfg {
         b2 = new JButton("GBP");
         b2.setBounds(240, 80, 100, 15);
         b3 = new JButton("Close");
-        b3.setBounds(150, 90, 100, 30);
+        b3.setBounds(150, 100, 100, 25);
 
 
         b1.addActionListener(new ActionListener() {
@@ -84,7 +84,7 @@ public class dfgsdfg {
         frame.add(t2);
         frame.add(b1);
         frame.add(b2);
-        frame.add(b2);
+        frame.add(b3);
 
         frame.setLayout(null);
         frame.setSize(400, 200);
